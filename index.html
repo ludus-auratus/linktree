@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="author" content="ludus-auratus" />
+        <meta name="keywords" content="linktree, ludus, ludus-auratus" />
+        <meta
+            name="description"
+            content="Um link tree próprio desenvolvido para o projeto Ludus"
+        />
+        <meta name="robots" content="index, index" />
+        <title>Ludus - Linktree</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <figure class="logo">
+                <img class="logo-img" src="img/ludus.png" />
+                <figcaption class="logo-caption">LUDUS</figcaption>
+            </figure>
+            <main class="linklist">
+                <a
+                    class="linkitem"
+                    href="https://www.instagram.com/ludus_proa/"
+                    target="_blank"
+                >
+                    <i class="linkitem-icon bi bi-instagram"></i>
+                    <h3 class="linkitem-text">Instagram</h3>
+                </a>
+                <a
+                    class="linkitem"
+                    href="https://www.linkedin.com/company/ludus-auratus"
+                    target="_blank"
+                >
+                    <i class="linkitem-icon bi bi-linkedin"></i>
+                    <h3 class="linkitem-text">LinkedIn</h3>
+                </a>
+                <a
+                    class="linkitem"
+                    href="https://github.com/ludus-auratus/.github"
+                    target="_blank"
+                >
+                    <i class="linkitem-icon bi bi-github"></i>
+                    <h3 class="linkitem-text">GitHub</h3>
+                </a>
+                <a class="linkitem linkitem--disabled" href="" target="_blank">
+                    <img class="linkitem-img" src="img/icon.png" />
+                    <h3 class="linkitem-text">Ludus</h3>
+                </a>
+                <div class="sharebtn">
+                    <button id="sharebtn-button" class="linkitem">
+                        <i class="linkitem-icon bi bi-share"></i>
+                        <h3 class="linkitem-text">Compartilhar</h3>
+                    </button>
+                    <span id="sharebtn-popup" class="sharebtn-popup">
+                        Link copiado!
+                    </span>
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <figure id="qrcode" class="qrcode">
+                <img
+                    id="qrcode-img"
+                    class="qrcode-img"
+                    alt="QR Code do linktree"
+                />
+                <figcaption class="qrcode-caption">
+                    QR Code do Linktree
+                </figcaption>
+            </figure>
+            <p class="footer-values">
+                Liberdade - União - Diversidade
+                <span>Utopia - Sustentabilidade</span>
+            </p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
